@@ -1,0 +1,23 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# Generated content (too large for git)
+videos/*.mp4
+audio/*.mp3
+audio/*.wav
+thumbnails/*_base.png
+
+# Keep directory structure
+!videos/.gitkeep
+!audio/.gitkeep
+!thumbnails/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
